@@ -1,0 +1,221 @@
+body{
+    font-family: Times New Roman, Times, serif;
+    /* A4 size*/
+    height: 1118px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    /* to centre page on screen*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
+div#left_side_content {
+    background-color: #bdc3c7;
+    border-bottom-right-radius: 10px;
+    color: #000;
+    float: left;
+    width: 30%;
+    height: 100%;
+    font-family: Comic Sans MS;
+}
+div#image{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+
+
+    text-align: center;
+    color: #fff;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.face{
+    margin-top: 25px;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 0px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+
+}
+
+.competence{
+    float: right;
+    width: 90%;
+    height: 17%;
+}
+
+
+.competence-row{
+    float: top;
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+    height: 20%;
+    border-bottom-left-radius:  5px;
+    border-bottom: 5px aliceblue solid;
+    margin-bottom: 15%;  
+    margin-top: 10%;
+    font-family: Calibri; 
+    color: #35776d;
+}
+
+
+
+.row-section{
+    float: left;
+    width: 100%;
+    height: auto;
+
+
+}
+
+.option {
+    float: left;
+    margin-left: 7%;
+
+}
+
+.stars{
+    float: right;
+    margin-right: 7%;
+}
+
+
+.info{
+    margin-left: 20%;
+}
+
+div#content {
+    float: right;
+    width: 70%;
+    height: 100%;
+    padding: 5%;
+    background: #fff;
+    padding: 30px;
+}
+
+.section summary-section{
+    width: 100%;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: #35776d;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.section-title .fa {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    display: inline-block;
+    color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #35776d;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 16px;
+    position: relative;
+    top: -2px;
+}
+
+
+.section {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.experiences-section .item {
+    margin-bottom: 30px;
+}
+
+.job-title {
+    color: #00000;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.outil{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Monospaced;
+    color: #423636;
+}
+
+.detail {
+    font-weight: 100;
+    color: #3F4650;
+}
+
+.company {
+    margin-bottom: 10px;
+    color: #697688;
+}
+
+.upper-row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+
+
+.time {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+    color: #697688;
+}
+
+.company {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #697688;
+}
+
+.upper-row {
+    margin-bottom: 0;
+}
+
+.education-container .item {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.education-container .item:last-child {
+    margin-bottom: 0;
+}
+
+.education-container .meta {
+    color: #697688;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
